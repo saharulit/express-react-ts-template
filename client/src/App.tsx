@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
-// Define the Friend interface
 interface Friend {
   name: string;
   caricature: string;
@@ -8,7 +7,6 @@ interface Friend {
 }
 
 export const App: React.FC = () => {
-  // Define the state with appropriate types
   const [friends, setFriends] = useState<Friend[]>([]); // State to hold friends data
   const [loading, setLoading] = useState<boolean>(true); // State to manage loading status
   const [error, setError] = useState<string | null>(null); // State to manage error status
