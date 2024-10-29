@@ -15,18 +15,18 @@ A monorepo template for a full-stack application combining **Express** (backend)
 - **Node.js** (>= 14.x recommended)
 - **npm**
 
-## Getting Started
 ## Creating Your Own Project
-To create your own project based on this template, follow these steps:
-1. Fork the Repository:
-    * Go to the GitHub page of this repository.
-    * Click on the "Fork" button in the top right corner.
-2. Clone Your Fork:
-    * use the URL of your forked repository.
-     ```
-      git clone https://github.com/saharulit/<ur-fork-url>
-      cd express-react-ts-template
-      ```
+To create your own project using this template, follow these steps:
+
+1. **Create a new repository from this template**:
+   - Go to the [Express React TypeScript Template repository](https://github.com/saharulit/express-react-ts-template).
+   - Click on the **Use this template** button to create a new repository.
+
+2. **Clone your new repository**:
+   ```bash
+   git clone https://github.com/your-username/your-new-repository.git
+   cd your-new-repository
+
 3. Install Dependencies:
     * Once you have cloned your fork, navigate to the project directory if you haven't already: ```cd your-repo-name ```
     * Install the required dependencies: ```npm install ```
