@@ -1,3 +1,4 @@
+![Icon](./icons8-octocat.svg)
 
 # Express-React-TS-Template
 
