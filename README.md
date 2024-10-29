@@ -16,34 +16,29 @@ A monorepo template for a full-stack application combining **Express** (backend)
 - **npm**
 
 ## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/saharulit/express-react-ts-template.git
-cd express-react-ts-template
-```
-
-### 2. Install Dependencies
-
-Using npm workspaces, you can install all dependencies in the root directory:
-
-```bash
-npm install
-```
-
-### 3. Run the Project
-
-The following command will run both the **server** and **client** concurrently:
-
-```bash
-npm start
-```
+## Creating Your Own Project
+To create your own project based on this template, follow these steps:
+1. Fork the Repository:
+    * Go to the GitHub page of this repository.
+    * Click on the "Fork" button in the top right corner.
+2. Clone Your Fork:
+    * use the URL of your forked repository.
+     ```
+      git clone https://github.com/saharulit/<ur-fork-url>
+      cd express-react-ts-template
+      ```
+3. Install Dependencies:
+    * Once you have cloned your fork, navigate to the project directory if you haven't already: ```cd your-repo-name ```
+    * Install the required dependencies: ```npm install ```
+  
+4. Start Development:
+    * You can now start the development server: ```npm run dev```
+    * Open your browser and navigate to http://localhost:3010 (or whatever port your server is configured to use) to see your project in action.
 
 - **Client**: Runs on `http://localhost:5173`
 - **Server**: Runs on `http://localhost:3000`
 
-### 4. Build the Project
+### Build the Project
 
 To build both the **client** and **server**:
 
@@ -52,7 +47,7 @@ npm run build -w client
 npm run build -w server
 ```
 
-### 5. Testing
+### Testing
 
 To run tests for both the client and server:
 
@@ -79,3 +74,5 @@ Here are the main scripts available:
   - `npm run dev -w server`: Starts the server in development mode with `ts-node`.
   - `npm run start -w server`: Runs the compiled server code.
   - `npm test -w server`: Runs server tests with Jest.
+
+
